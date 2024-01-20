@@ -1,6 +1,3 @@
-![Manga Talk logo Image]()
-
----
 # MangaTalk
 
 Welcome to MangaTalk! A blog for anime and manga affitionados. Users can create posts, like and comment on other people's posts. MangaTalk is a space to share, and we expect the community to be respectful, there is a 0 tolerance to hatred policy.
@@ -42,7 +39,7 @@ Heroku Repo Link: COMING SOON
 
 #### Wireframe
 
-Mobile Wireframe link : COMING SOON
+Mobile Wireframe link : [here](https://github.com/jhoanTrujillo/MangaTalk/blob/main/media/readme/Mobile_wireframe.pdf)
 Desktop Wireframe Link : COMING SOON
 
 #### Color Scheme 
