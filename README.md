@@ -1,6 +1,8 @@
 # MangaTalk
 
-Welcome to MangaTalk! A blog for anime and manga affitionados. Users can create posts, like and comment on other people's posts. MangaTalk is a space to share, and we expect the community to be respectful, there is a 0 tolerance to hatred policy.
+Welcome to MangaTalk! A forum for anime and manga affitionados. Users can create categories and threads to discuss any topic related to manga, anime, and other things! The users will be able to like and comment on each other's post. 
+
+This concept was heavily inspire by reddit.
 
 Heroku Repo Link: COMING SOON
 
@@ -18,19 +20,48 @@ Heroku Repo Link: COMING SOON
 
 ### User Experience
 
-#### 1. Initial Idea
+#### 1. Project Goals
+My first goal is to use my Fullstack skills to implement a forum with full CRUD capabilities where users can create post, delete them, and change them if needed. 
 
-- I decided to create a blog that would allow people to have a conversation about the latest news in the word of Anime and Manga. Since I'm a big fan of the art style.
-- The inspiration came from the the classic blogs of the early 2000s, the difference was that I wanted to create a more user friendly and general experience.
-- For that I would keep conversations in three basic categories Manga, Anime, Live Action. That way we can keep conversations about each medium in different spaces, and allow for a main post to have threads of comments like in a classic forum.
+The forum should allow for users to like each other's post, create categories, and view all post per category. 
 
+### 2. Epics and User Stories 
 
-#### 2. User Stories 
+Find all Epics and User stories in the following [project board](https://github.com/users/jhoanTrujillo/projects/2)
 
+#### Features 
 
-#### 3. Project Goals
-
-1. My first goal is to use my Fullstack skills to implement a forum with full CRUD capabilities where users can create post, delete them, and chat about any different 
+| Feature                       | Importance | Difficulty | Project priority |
+|-------------------------------|------------|------------|:----------------:|
+| Account Features              |            |            |                  |
+| Account creation              | 5          | 1          | Must-Have        |
+| Account login                 | 5          | 1          | Must-Have        |
+| Account signoff               | 5          | 1          | Must-Have        |
+| Account Deletion              | 5          | 2          | Must-Have        |
+| Password recovery             | 5          | 3          | Should-Have      |
+| Account Preferences           | 3          | 2          | Could-Have       |
+| Account Update                | 4          | 2          | Should-Have      |
+| Display likes in user profile | 2          | 1          | Could-Have       |
+| Categories Feature            |            |            |                  |
+| Category creation             | 5          | 1          | Must-Have        |
+| Category Deletion             | 5          | 1          | Must-Have        |
+| Category Update               | 4          | 1          | Must-Have        |
+| List of threads by category   | 5          | 1          | Must-Have        |
+| Thread Features               |            |            |                  |
+| Create thread                 | 5          | 1          | Must-Have        |
+| Delete thread                 | 5          | 1          | Must-Have        |
+| Edit thread                   | 5          | 1          | Must-Have        |
+| display list of post          | 5          | 2          | Must-Have        |
+| Show likes in thread          | 2          | 1          | Could-Have       |
+| Display total number of post  | 3          | 1          | Should-Have      |
+| Post Features                 |            |            |                  |
+| Create post                   | 5          | 1          | Must-Have        |
+| Delete Post                   | 5          | 1          | Must-Have        |
+| Update Post                   | 5          | 1          | Must-Have        |
+| Reply to other post           | 4          | 2          | Should-Have      |
+| Like post                     | 2          | 1          | Could-Have       |
+| Display likes per post        | 2          | 1          | Could-Have       |
+| Display replies per post      | 3          | 1          | Should-Have      |
 
 [Back to top](#MangaTalk)
 
@@ -39,8 +70,8 @@ Heroku Repo Link: COMING SOON
 
 #### Wireframe
 
-Mobile Wireframe link : [here](https://github.com/jhoanTrujillo/MangaTalk/blob/main/media/readme/Mobile_wireframe.pdf)
-Desktop Wireframe Link : COMING SOON
+- Mobile Wireframe link : [here](https://github.com/jhoanTrujillo/MangaTalk/blob/main/media/readme/Mobile_wireframe.pdf)
+- Desktop Wireframe Link : Will add later, once mobile first approach is taken 
 
 #### Color Scheme 
 
@@ -64,7 +95,9 @@ To ensure font-readability and compliance with best practices, we ensure our min
 COMING SOON
 
 ---
-### Technologies Used
+### Technologies
+
+#### Technology used
 
 Currently the technologies decided for the project are: 
 
@@ -74,12 +107,13 @@ Currently the technologies decided for the project are:
 4. Python/Django
 5. SQL
 
-#### Workspace 
+#### Workspace & Enviroment 
 
 My workspace and enviroments: 
 
 1. VS CODE : Code editor of choice.
 2. Heroku : Used to deploy site.
+3. ElephantSQL: was used to host the postgreSQL database. 
 
 [Back to top](#MangaTalk)
 
@@ -88,12 +122,16 @@ My workspace and enviroments:
 
 COMING SOON
 
+### Installation
+
+COMING SOON
+
 [Back to top](#MangaTalk)
 
 ---
 ### Testing
 
-COMING SOON
+At the end of the proccess I will share the findings in my testing process.
 
 [Back to top](#MangaTalk)
 
